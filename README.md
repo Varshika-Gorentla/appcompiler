@@ -171,13 +171,18 @@ The validator checks that all four layers are internally consistent:
 ## Screenshots
 
 ### Main Interface
+<img width="1890" height="962" alt="image" src="https://github.com/user-attachments/assets/14dab522-d847-4719-8392-81625314eb4c" />
 
 
 ### Output Config
-*(Add screenshot of the 4-panel output)*
+<img width="1407" height="905" alt="image" src="https://github.com/user-attachments/assets/e5c58402-f6ab-4e81-a45c-f01d45f146ce" />
+<img width="1382" height="892" alt="image" src="https://github.com/user-attachments/assets/a08f755f-7931-4c26-a5ff-13fa480b4571" />
+
+
 
 ### Metrics Dashboard
-*(Add screenshot of 100% success rate)*
+<img width="527" height="182" alt="image" src="https://github.com/user-attachments/assets/990c1e90-be28-4204-b44d-6d83e33e4cad" />
+
 
 ---
 
