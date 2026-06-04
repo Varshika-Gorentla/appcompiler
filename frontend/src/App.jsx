@@ -45,8 +45,6 @@ export default function App() {
     const res = await axios.get(`${API}/metrics`)
     setMetrics(res.data)
     setTab("metrics")
-    // Auto refresh every 5 seconds
-    setTimeout(loadMetrics, 5000)
   }
 
   return (
