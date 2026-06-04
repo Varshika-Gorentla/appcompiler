@@ -3,7 +3,7 @@ import requests
 import time
 import os
 
-API = "http://127.0.0.1:8000"
+API = "https://appcompiler-production.up.railway.app"
 
 def run_eval():
     results = []

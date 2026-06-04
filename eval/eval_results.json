@@ -1,0 +1,190 @@
+{
+  "summary": {
+    "total": 20,
+    "normal_success_rate": 100.0,
+    "edge_success_rate": 100.0,
+    "avg_latency_ms": 27958
+  },
+  "runs": [
+    {
+      "type": "normal",
+      "prompt": "Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics.",
+      "success": true,
+      "latency_ms": 39516,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Create a project management tool like Trello with boards, cards, teams, and due dates.",
+      "success": true,
+      "latency_ms": 40220,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Build a blog platform where authors can write posts, editors can review, and readers can comment.",
+      "success": true,
+      "latency_ms": 38850,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Create an e-commerce store with product listings, cart, checkout, order history, and admin panel.",
+      "success": true,
+      "latency_ms": 34131,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Build a clinic management system with patient records, appointments, doctor schedules, and billing.",
+      "success": true,
+      "latency_ms": 39109,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Create a SaaS analytics dashboard where users upload CSVs and see charts and insights.",
+      "success": true,
+      "latency_ms": 24121,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Build a job board where employers post jobs and candidates apply and track applications.",
+      "success": true,
+      "latency_ms": 28590,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Create a learning management system with courses, lessons, quizzes, and student progress tracking.",
+      "success": true,
+      "latency_ms": 33759,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Build a real estate listing platform where agents post properties and buyers can save favorites.",
+      "success": true,
+      "latency_ms": 27853,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "normal",
+      "prompt": "Create a restaurant management app with menu management, table reservations, and order tracking.",
+      "success": true,
+      "latency_ms": 28101,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": false
+    },
+    {
+      "type": "edge",
+      "prompt": "Build an app.",
+      "success": true,
+      "latency_ms": 17015,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "I want login and also payments but login should not require email, and payments should work without login.",
+      "success": true,
+      "latency_ms": 25479,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Create something for my business.",
+      "success": true,
+      "latency_ms": 17146,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Build a social network like Facebook but better and with blockchain.",
+      "success": true,
+      "latency_ms": 26743,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Make an app with 500 features including AI, blockchain, AR, and also offline mode.",
+      "success": true,
+      "latency_ms": 22750,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Build a dashboard.",
+      "success": true,
+      "latency_ms": 19716,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Create an app where admins are also users and users are also admins depending on the situation.",
+      "success": true,
+      "latency_ms": 22181,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Build a CRM. Actually make it an ERP. Actually just a simple contacts list.",
+      "success": true,
+      "latency_ms": 34078,
+      "retries": 1,
+      "repair_count": 1,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "I need an app that does everything my current system does.",
+      "success": true,
+      "latency_ms": 18769,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    },
+    {
+      "type": "edge",
+      "prompt": "Create a platform with real-time collaboration, end-to-end encryption, and infinite scalability.",
+      "success": true,
+      "latency_ms": 21043,
+      "retries": 0,
+      "repair_count": 0,
+      "runtime_pass": true
+    }
+  ]
+}
