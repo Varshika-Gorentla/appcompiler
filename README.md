@@ -71,35 +71,43 @@ All generation stages use `temperature=0`. System prompts enforce strict JSON-on
 ---
 
 ## Project Structure
+
+```
 appcompiler/
 ├── backend/
-│   ├── main.py                   # FastAPI routes, pipeline orchestration
-│   ├── requirements.txt
-│   ├── .python-version           # Pins Python 3.12
+│   ├── main.py                    # FastAPI app + pipeline orchestration
+│   ├── requirements.txt           # Python dependencies
+│   ├── .python-version            # Pins Python 3.12
+│   │
 │   ├── pipeline/
-│   │   ├── intent_extractor.py   # Stage 1: prompt → intent JSON
-│   │   ├── system_designer.py    # Stage 2: intent → full architecture
-│   │   ├── validator.py          # Pydantic + cross-layer consistency checks
-│   │   ├── repair_engine.py      # Targeted partial repair
-│   │   └── runtime_simulator.py  # Route + DB + auth simulation
+│   │   ├── intent_extractor.py    # Stage 1 — prompt → intent JSON
+│   │   ├── system_designer.py     # Stage 2 — intent → architecture
+│   │   ├── validator.py           # Stage 3 — Pydantic + cross-layer checks
+│   │   ├── repair_engine.py       # Stage 4 — targeted partial repair
+│   │   └── runtime_simulator.py   # Stage 5 — route + DB + auth simulation
+│   │
 │   ├── schemas/
-│   │   └── models.py             # Pydantic models (typed contracts)
+│   │   └── models.py              # Typed contracts for every stage
+│   │
 │   ├── metrics/
-│   │   └── tracker.py            # SQLite metrics logging
+│   │   └── tracker.py             # SQLite run logging
+│   │
 │   └── prompts/
 │       ├── intent_prompt.txt
 │       ├── design_prompt.txt
 │       ├── schema_prompt.txt
 │       └── repair_prompt.txt
+│
 ├── frontend/
 │   └── src/
-│       └── App.jsx               # Full React UI with dark theme
+│       └── App.jsx                # React UI — dark theme, pipeline view
+│
 └── eval/
-├── prompts_normal.json       # 10 real product prompts
-├── prompts_edge.json         # 10 edge cases
-├── run_eval.py               # Automated evaluation runner
-└── eval_results.json         # Results from evaluation run
-
+    ├── prompts_normal.json        # 10 real product prompts
+    ├── prompts_edge.json          # 10 edge cases (vague, conflicting)
+    ├── run_eval.py                # Automated evaluation runner
+    └── eval_results.json          # 100% success rate results
+```
 ---
 
 ## Setup — Run Locally
